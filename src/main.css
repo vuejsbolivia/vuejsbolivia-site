@@ -4,6 +4,14 @@
 
 @tailwind utilities;
 
+:root{
+  --gray-color: #4a5568;
+  --gray-HS: 218, 17%;
+  --gray-HSL: 218, 17%, 35%;
+  --green-color: #41b883;
+  --green-HS: 153, 48%;
+  --green-HSL: 153, 48%, 49%;
+}
 .theme-light {
   --bg-background-primary: white;
   --bg-background-secondary: #f7fafc;

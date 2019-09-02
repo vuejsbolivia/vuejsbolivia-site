@@ -6,9 +6,11 @@
 
 const tailwind = require('tailwindcss')
 const purgecss = require('@fullhuman/postcss-purgecss')
+const postcssCustomProperties = require('postcss-custom-properties')
 
 const postcssPlugins = [
   tailwind(),
+  postcssCustomProperties()
 ]
  
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())

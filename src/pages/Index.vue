@@ -1,8 +1,7 @@
 <template>
   <Layout>
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <!-- <div class="leading-tight">Vue.js Bolivia 🇧🇴</div> -->
+      <div class="flex flex-wrap content-center text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="text-green-700 leading-tight pb-3">Comunidad boliviana de Vue.js 🇧🇴</div>
         <p class="text-lg sm:text-xl pb-1">Todo lo que se realiza en Vue.js Bolivia es parte de la comunidad, y por lo tanto es un bien común.</p>
       </div>
